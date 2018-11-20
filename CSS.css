@@ -1,4 +1,9 @@
 p {
+  font-family: monospace, Helvetica, sans-serif;
   color:white;
-  background-color:black;
-  }
+  background-color:black; /* Remove this when we add a backgrond color to the entire document */
+}
+
+p.greenText {
+  color: green;
+}
