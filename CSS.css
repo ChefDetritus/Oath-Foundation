@@ -23,14 +23,14 @@ body {
   
 }
 
-.resourceWindow {
+div.resourceWindow {
   background-color: black;
   border-color: white;
   border-width: 1px;
-  filter: opacity(50%);
   height: 350px;
   width: 900px;
   padding: 5px;
+  list-style-type: none; 
 }
 
 div.resourceWindowTab1 {
@@ -49,7 +49,7 @@ div.label {
 }
 
 table.resourceHub {
- background-color: black;
+ background-color: #175760;
  border-color: white;
  border-width: 2px;
  border-collapse: separate;
