@@ -1,6 +1,6 @@
 body {
   font-family: monospace, Helvetica, sans-serif;
-  text-color:white;
+  color: white;
   background-color: #0c2e33; 
 }
 
@@ -9,19 +9,21 @@ p.greenText {
 }
 
 table.resourceHub {
+ border-color: white;
  border-collapse: separate;
  border-spacing: 20px 40px;
 }
 
 div.progressBar1 {
- width: 100px;
- height: 100px;
+ width: 350px;
+ height: 75px;
+ border-color: white;
  background-color: red;
  animnation-name: colorchange;
- animation-duration: 5s;
+ animation-duration: 10s;
 }
 
-@keyframe colorchange {
+@keyframes colorchange {
   0% {background-color: Red;}
   33% {backgorund-color: Orange;}
   66% {background-color: Yellow;}
