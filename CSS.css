@@ -1,7 +1,12 @@
-p {
+head {
   font-family: monospace, Helvetica, sans-serif;
-  color:white;
-  background-color:black; /* Remove this when we add a backgrond color to the entire document */
+  text-color:white;
+}
+
+body {
+  font-family: monospace, Helvetica, sans-serif;
+  text-color:white;
+  background-color: #0c2e33; 
 }
 
 p.greenText {
@@ -11,4 +16,19 @@ p.greenText {
 table.resourceHub {
  border-collapse: separate;
  border-spacing: 20px 40px;
+}
+
+div.progressBar1 {
+ width: 100px;
+ height: 100px;
+ background-color: red;
+ animnation-name: colorchange;
+ animation-duration: 5s;
+}
+
+@keyframe colorchange {
+  0% {background-color: Red;}
+  33% {backgorund-color: Orange;}
+  66% {background-color: Yellow;}
+  99% {background-color: Green;}
 }
