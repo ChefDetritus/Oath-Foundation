@@ -7,19 +7,19 @@ body {
   background-color: #0c2e33; 
 }
 
-#search {
+#gatherStick {
   
 }
 
-#stick {
+#gatherRock {
   
 }
 
-#rock {
+#searchArea {
   
 }
 
-#hunt {
+#huntArea {
   
 }
 
@@ -48,7 +48,7 @@ ul.clickableResource {
   list-style-type: none; 
 }
 
-li.resources {
+div.label {
  display: inline; 
 }
 
