@@ -33,9 +33,17 @@ div.resourceWindow {
 }
 
 div.resourceWindowTab1 {
-  display: inline;
   height: 200px;
   width: 800px;
+}
+
+ul.milestoneGoals {
+  text-decoration: none; 
+}
+
+ul.clickableResource {
+ display: inline;
+ text-decoration: none; 
 }
 
 table.resourceHub {
