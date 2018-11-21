@@ -38,12 +38,15 @@ div.resourceWindowTab1 {
 }
 
 ul.milestoneGoals {
-  text-decoration: none; 
+  list-style-type: none; 
 }
 
 ul.clickableResource {
- display: inline;
- text-decoration: none; 
+ list-style-type: none; 
+}
+
+li.resources {
+ display: inline; 
 }
 
 table.resourceHub {
