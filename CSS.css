@@ -24,11 +24,18 @@ img.hunt {
 }
 
 div.resourceWindow {
-  
+  background-color: black;
+  border-color: white;
+  border-width: 1px;
+  height: 250px;
+  width: 850px;
+  padding: 5px;
 }
 
 div.resourceWindowTab1 {
-  
+  display: inline;
+  height: 200px;
+  width: 800px;
 }
 
 table.resourceHub {
