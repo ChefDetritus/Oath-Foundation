@@ -23,11 +23,11 @@ body {
   
 }
 
-div.resourceWindow {
+.resourceWindow {
   background-color: black;
   border-color: white;
   border-width: 1px;
-  filter: opacity(70%);
+  filter: opacity(50%);
   height: 350px;
   width: 900px;
   padding: 5px;
@@ -43,13 +43,9 @@ ul.milestoneGoals {
   list-style-type: none; 
 }
 
-ul.clickableResource {
-  display: inline; 
-  list-style-type: none; 
-}
-
 div.label {
- display: inline; 
+ display: inline;
+ list-style-type: none; 
 }
 
 table.resourceHub {
