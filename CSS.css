@@ -42,7 +42,8 @@ ul.milestoneGoals {
 }
 
 ul.clickableResource {
- list-style-type: none; 
+  display: inline; 
+  list-style-type: none; 
 }
 
 li.resources {
