@@ -1,5 +1,8 @@
 body {
   font-family: monospace, Helvetica, sans-serif;
+  font-size: medium;
+  text-align: center;
+  vertical-align: middle;
   color: white;
   background-color: #0c2e33; 
 }
@@ -9,20 +12,24 @@ p.greenText {
 }
 
 table.resourceHub {
+ background-color: black;
  border-color: white;
+ border-width: 2px;
  border-collapse: separate;
  border-spacing: 20px 40px;
 }
 
 div.progressBar1 {
- width: 350px;
- height: 75px;
+ width: 500px;
+ height: 60px;
  border-color: white;
  background-color: red;
  animnation-name: colorchange;
  animation-duration: 10s;
+ animation-iteration-count: infinite;
  -webkit-animation-name: colorchange;
  -webkit-animation-duration: 10s;
+ -webkit-animation-iteration-count: infinite;
 }
 
 @keyframes colorchange {
