@@ -21,9 +21,18 @@ div.progressBar1 {
  background-color: red;
  animnation-name: colorchange;
  animation-duration: 10s;
+ -webkit-animation-name: colorchange;
+ -webkit-animation-duration: 10s;
 }
 
 @keyframes colorchange {
+  0% {background-color: Red;}
+  33% {backgorund-color: Orange;}
+  66% {background-color: Yellow;}
+  99% {background-color: Green;}
+}
+
+@-webkit-keyframes colorchange {
   0% {background-color: Red;}
   33% {backgorund-color: Orange;}
   66% {background-color: Yellow;}
