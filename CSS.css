@@ -40,7 +40,7 @@ div.resourceWindow {
   list-style-type: none; 
 }
 
-div.resourceWindowTab1 {
+div.resourceWindowTabs {
   background-color: #0c2e33;
   padding: 2px;
   border: 2px solid white;
