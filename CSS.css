@@ -24,13 +24,17 @@ body {
 }
 
 div.resourceWindow {
-  background-color: black;
-  border-color: white;
-  border-width: 1px;
+  background-color: #175760;
+  padding: 5px;
+  border: 2px solid white;
   height: 350px;
   width: 900px;
-  padding: 5px;
   list-style-type: none; 
+}
+
+div.label {
+ display: inline;
+ list-style-type: none; 
 }
 
 div.resourceWindowTab1 {
@@ -41,11 +45,6 @@ div.resourceWindowTab1 {
 
 ul.milestoneGoals {
   list-style-type: none; 
-}
-
-div.label {
- display: inline;
- list-style-type: none; 
 }
 
 table.resourceHub {
