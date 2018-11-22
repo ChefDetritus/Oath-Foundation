@@ -7,6 +7,10 @@ body {
   background-color: #0c2e33; 
 }
 
+ul.milestoneGoals {
+  list-style-type: none; 
+}
+
 #gatherStick {
   
 }
@@ -23,8 +27,8 @@ body {
   
 }
 
-#removeBullets {
-   list-style-type: none; 
+#collectStick {
+  
 }
 
 div.resourceWindow {
@@ -44,7 +48,7 @@ div.resourceWindowTab1 {
   width: 100px;
 }
 
-ul.milestoneGoals {
+div.labelStick {
   list-style-type: none; 
 }
 
