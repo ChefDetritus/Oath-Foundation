@@ -23,6 +23,10 @@ body {
   
 }
 
+#removeBullets {
+   list-style-type: none; 
+}
+
 div.resourceWindow {
   background-color: #175760;
   padding: 5px;
@@ -32,15 +36,12 @@ div.resourceWindow {
   list-style-type: none; 
 }
 
-div.label {
- display: inline;
- list-style-type: none; 
-}
-
 div.resourceWindowTab1 {
   background-color: #0c2e33;
-  height: 300px;
-  width: 850px;
+  padding: 2px;
+  border: 2px solid white;
+  height: 100px;
+  width: 100px;
 }
 
 ul.milestoneGoals {
