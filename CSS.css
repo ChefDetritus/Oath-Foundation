@@ -33,22 +33,23 @@ ul.milestoneGoals {
 
 div.resourceWindow {
   background-color: #175760;
-  padding: 5px;
+  padding: 10px;
   border: 2px solid white;
-  height: 350px;
-  width: 900px;
+  height: 300px;
+  width: 1000px;
   list-style-type: none; 
 }
 
-div.resourceWindowTabs {
+div.resourceWindowIcons {
   background-color: #0c2e33;
-  padding: 2px;
+  padding: 10px;
   border: 2px solid white;
   height: 100px;
   width: 100px;
 }
 
 div.labelStick {
+  float: right;
   list-style-type: none; 
 }
 
