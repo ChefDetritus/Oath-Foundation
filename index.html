@@ -9,13 +9,15 @@
     
     <h1>OATH FOUNDATION MILESTONE GOALS</h1>
     
-        <ul class="milestoneGoals">
+        <ul class="removeBullets">
           <li>Make your boxes colorful</li>
-          <li>Create a window that works like you want</li>
-          <li>Fix your code!</li>
-          <li>Make an onclick function</li>
-          <li>Add a button</li>
-          <li>Ensure pictures are the right size</li>
+          <li>Place an image as a button</li>
+          <li>Show the increase in a resource bar</li>
+          <li>After clicking the button 10 times, Alert the player text explaining what your character 
+              thinks is happening and a image of the resource they recieved</li>
+          <li>After pushing the collectStick Button, make the button inactive to click, and show a 5 second timer</li>
+          <li>After 5 seconds, collect 1-6 sticks, make the button active to click again</li>
+          <li>Make the spirits gathered increase the amount of sticks gathered by 2 per "level 1" Darmaka</li>
         </ul>
     
         <p> Lets work on a game! This game is going to start off with featuring a clickable button <br />
@@ -47,10 +49,10 @@
     
     <div class="resourceWindow">Resource Window Header
       <div class="resourceWindowIcons">
-         <ul>
+         <ul class="removeBullets">
            <li> 
-             <div class="labelStick"><img id="gatherStick" src="wood_t.png" height="100px" width="100px" alt"" />COLLECT STICK</div>
-             <div id="gatherStick"></div>
+             <div> img src="wood_t.png" height="100px" width="100px" alt"" /><button class="typicalButton" onclick="increaseStick()">
+               Click me to gather a stick!</button></div>
            </li>
         </ul>
       </div>
