@@ -31,11 +31,11 @@ ul.removeBullets {
   
 }
 
-.typicalButton {
-  height: 50px;
+#stickButton {
+  height: 30px;
   width: 100px;
-  border: 1px solid white;
-  border-radius: 5px; 
+  border: 1px solid black;
+  border-radius: 10px; 
 }
 
 div.resourceWindow {
