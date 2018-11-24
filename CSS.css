@@ -44,12 +44,16 @@ div.resourceWindow {
   list-style-type: none; 
 }
 
-.stickIcon {
+.stickBox {
   background-color: #0c2e33;
   padding: 10px;
   border: 2px solid white;
   height: 100px;
   width: 100px;
+}
+
+.stickIcon {
+  
 }
 
 div.labelStick {
