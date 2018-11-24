@@ -12,9 +12,6 @@ function increaseStick() {
   varStick++;
 }
 
-/*
-  typicalbutton.onclick=function increaseStick() {
+typicalbutton.onclick=function increaseStick() {
     document.write("Stick ="varStick;)
   }
-  
-*/
