@@ -44,7 +44,7 @@ div.resourceWindow {
   list-style-type: none; 
 }
 
-div.resourceWindowIcons {
+.stickIcon {
   background-color: #0c2e33;
   padding: 10px;
   border: 2px solid white;
