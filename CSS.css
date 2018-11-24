@@ -32,7 +32,10 @@ ul.removeBullets {
 }
 
 .typicalButton {
- border-radius: 5px; 
+  height: 50px;
+  width: 100px;
+  border: 1px solid white;
+  border-radius: 5px; 
 }
 
 div.resourceWindow {
