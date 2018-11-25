@@ -32,6 +32,7 @@ ul.removeBullets {
 }
 
 #stickButton {
+  background-image: "wood_t.png";
   height: 30px;
   width: 100px;
   border: 1px solid black;
