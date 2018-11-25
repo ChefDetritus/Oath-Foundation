@@ -10,8 +10,5 @@ alert("*An overwhelming urge compels you collect all the sticks!*");
 
 function increaseStick() {
   varStick++;
+  document.write("Stick =" + varStick;)
 }
-
-document.getElementById(stickButton).onclick = function increaseStick() {
-    document.write("Stick ="varStick);
-  }
