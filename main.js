@@ -10,5 +10,5 @@ alert("*An overwhelming urge compels you collect all the sticks!*");
 
 function increaseStick() {
   varStick++;
-  document.write("Stick =" + varStick;)
+  document.getElementById('inc').value = varStick;
 }
